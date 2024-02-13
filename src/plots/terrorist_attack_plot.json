@@ -64,10 +64,53 @@
 	"backgroundImgPath": "images/explosion.jpeg"
 	},
 	{
-	"heading": "He did it! He survived the explosion and lived to tell the tale! In school, everyone is proud of him that he helped the old men and were vigilant.",
+	"heading": "He did it! He survived the explosion and lived to tell the tale! Daming, being the gigachad he is, used his jawline to carve his way out of the rubble and exited the train tunnel. He calmly makes his way to school.",
 	"choices": [{
 		"label": "Hooray!!",
-		"screenTo": -2
+		"screenTo": 10,
+	}]
+	},
+	{
+	"heading": "Things go on as usual, lessons go by, and during Math class, the announcement “dry ground, dry ground” plays over the PA. But, there was no drill planned that week?",
+	"choices": [{
+		"label": "It must be a terrorist attack!!! Run for his life!!!!!",
+		"screenTo": -1,
+		"endMessage": "You run out of the classroom, only to come face to face with the terrorist. After an awkward exchange and some small talk, you are shot."
+	}, {
+		"label": "Wait for further announcement",
+		"screenTo": 11
 	}]	
+	},
+	{
+	"heading": "You are now ordered to evacuate. But your maths teacher shouts: EVERYONE STAY HERE! ALL OF YOU MUST FINISH YOUR COMPLETING THE SQUARE WORKSHEET BEFORE YOU CAN GO!!!!!!!!!!!!!!!!!!",
+	"choices": [{
+		"label": "Continue grinding math problems as a diligent student",
+		"screenTo": -1,
+		"endMessage": "After a few minutes, the terrorist walks into class. Looking at the obedient class and scary math teacher, he quickly sat down and started working on his math problems. Then he remembered he was a terrorist and the last thing Daming remembers was algebraic manipulation."
+	}, {
+		"label": "Plan a rebellion against your math teacher's instructions and begin lockdown measures",
+		"screenTo": 12
+	}]
+	},
+	{
+	"heading": "Your math teacher will scold you next lesson but you will have a much higher chance of living. What does Daming do now?",
+	"choices": [{
+		"label": "Arrange the tables into the shape of an amogus to confuse and hypnotize the terrorist",
+		"screenTo": -1,
+		"endMessage": "The terrorist laughs while holding the class at gunpoint and proceeds to sweep the classroom. Everyone dies"
+	}, {
+		"label": "Do Rock you in class repeatedly as a form of intimidation against terrorists",
+		"screenTo": -1,
+		"endMessage": "The terrorist is inspired by your school spirit. Concurrently and mysteriously, Daming's class dies swiftly"
+	}, {
+		"label": "Close the windows and blinds, and exert your power as math rep to force everyone under the tables",
+		"screenTo": 13,
+	}]
+	}, {
+	"heading": "Good job! A mysterious figure walks past your classroom. But you hear gunshots in the distance... After a while, you are told to evacuate the school.",
+	"choices": [{
+		"label": "Leave the school",
+		"screenTo": 14,
+	}]
 	}
 ]
